@@ -1,0 +1,75 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="master_master.css" crc="51084527" ref="cfcs:smhs:smuhsd:ark:edu:copypaper:wifi:dbx"/>
+    <file name="cfcs.css" crc="497346555" ref="cfcs"/>
+    <file name="redesignhs.css" crc="4049678318" ref="redesignhs"/>
+    <file name="iefonts_redesignhs.css" crc="68809999" ref="redesignhs"/>
+    <file name="smhs.css" crc="112455745" ref="smhs"/>
+    <file name="index.css" crc="4150555489" ref="index"/>
+    <file name="smuhsd.css" crc="215624719" ref="smuhsd"/>
+    <file name="iefonts_smuhsd.css" crc="480557247" ref="smuhsd"/>
+    <file name="ark.css" crc="4266313216" ref="ark"/>
+    <file name="iefonts_ark.css" crc="395260789" ref="ark"/>
+    <file name="edu.css" crc="3911205762" ref="edu"/>
+    <file name="iefonts_edu.css" crc="3828842355" ref="edu"/>
+    <file name="copypaper.css" crc="99476044" ref="copypaper"/>
+    <file name="wifi.css" crc="364969898" ref="wifi"/>
+    <file name="dbx.css" crc="4263791683" ref="dbx"/>
+  </folder>
+  <folder name="assets">
+    <file name="wifi.pdf" crc="3932427812" mt="1399090659000"/>
+    <file name="copypaper.pdf" crc="334802862" mt="1399090659000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:smhs:redesignhs:ark:smuhsd:cfcs:edu:wifi:copypaper:dbx"/>
+    <file name="museutils.js" crc="3865766194" ref="index:smhs:redesignhs:ark:smuhsd:cfcs:edu:wifi:copypaper:dbx"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:smhs:redesignhs:ark:smuhsd:cfcs:edu:wifi:copypaper"/>
+    <file name="pie.js" crc="3827607177" ref="redesignhs:ark:smuhsd:edu:wifi:copypaper:cfcs"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:smhs:redesignhs:ark:smuhsd:cfcs:edu:wifi:copypaper:dbx"/>
+    <file name="webpro.js" crc="3903299128" ref="redesignhs"/>
+    <file name="form_check.php" crc="4257733307" ref="redesignhs"/>
+    <file name="form_throttle.php" crc="3966014863" ref="redesignhs"/>
+    <file name="form-u302.php" crc="3982141541" ref="redesignhs"/>
+    <file name="jquery.scrolleffects.js" crc="3937082470" ref="wifi"/>
+  </folder>
+  <folder name="images">
+    <file name="bg.jpg" crc="517586340" ref="index"/>
+    <file name="img_0255 shop600x903.jpg" crc="3826814160" ref="edu"/>
+    <file name="13080818773_aeb4c85028_o.jpg" crc="4107400392" ref="edu"/>
+    <file name="smhsbg.jpg" crc="4233956378" ref="smhs"/>
+    <file name="u258-4.png" crc="124946311" ref="smhs"/>
+    <file name="smhspaper.png" crc="3826416228" ref="smhs"/>
+    <file name="smhscs.png" crc="4278589541" ref="smhs"/>
+    <file name="smhswifi.png" crc="3945629921" ref="smhs"/>
+    <file name="12064147886_bd1dbc525c_o.jpg" crc="273729791" ref="redesignhs"/>
+    <file name="u291-7.png" crc="4164483050" ref="redesignhs"/>
+    <file name="u334-17.png" crc="4278242744" ref="redesignhs"/>
+    <file name="u334-17-r.png" crc="495395408" ref="redesignhs"/>
+    <file name="u334-17-m.png" crc="4014023469" ref="redesignhs"/>
+    <file name="u334-17-fs.png" crc="199437801" ref="redesignhs"/>
+    <file name="12959328855_29b5b104ed_o.jpg" crc="3814079784" ref="ark"/>
+    <file name="13931955445_1016381c2b_o.jpg" crc="404158848" ref="smuhsd"/>
+    <file name="13571709815_a1bfc5ae31_o.jpg" crc="441075133" ref="wifi"/>
+    <file name="12063264755_ebb5fbd0ba_o.jpg" crc="58852055" ref="copypaper"/>
+    <file name="bg2.jpg" crc="4082003985" ref="cfcs"/>
+    <file name="master-favicon.ico" crc="199784527" ref="edu"/>
+    <file name="home-favicon.ico" crc="199784527" ref="index"/>
+    <file name="circle.png" crc="3938605958" ref="index"/>
+    <file name="img_0255 shop600x903-u81-fr.jpg" crc="4166892900" ref="edu"/>
+    <file name="img.jpg" crc="3852391724" ref="cfcs"/>
+    <file name="smhscookie.png" crc="4082521219" ref="smhs"/>
+    <file name="smhsdbx.png" crc="4111482737" ref="smhs"/>
+    <file name="smhs ark logo.png" crc="4051298733" ref="ark"/>
+  </folder>
+  <file name="index.html" crc="295383008" mt="1399439964560" redirect="true"/>
+  <file name="smhs.html" crc="3864589123" mt="1399585326658" redirect="true"/>
+  <file name="redesignhs.html" crc="4083121225" mt="1399439964577" redirect="true"/>
+  <file name="ark.html" crc="3797504832" mt="1399585326660" redirect="true"/>
+  <file name="smuhsd.html" crc="10210819" mt="1399585326661" redirect="true"/>
+  <file name="cfcs.html" crc="3888087864" mt="1399585326666" redirect="true"/>
+  <file name="edu.html" crc="336339175" mt="1399585326657" redirect="true"/>
+  <file name="wifi.html" crc="3837115941" mt="1399585326662" redirect="true"/>
+  <file name="copypaper.html" crc="264781651" mt="1399585326664" redirect="true"/>
+  <file name="dbx.html" crc="476767929" mt="1399585326665" redirect="true"/>
+</manifest>

@@ -1,0 +1,103 @@
+#u518,#u520
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u75
+{
+	border-color: #000000;
+	background-color: #333333;
+	position: relative;
+}
+
+#u133-4
+{
+	background-color: transparent;
+	text-align: center;
+	line-height: 21px;
+	font-size: 21px;
+	color: #FFFFFF;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u133-2
+{
+	padding-top: 15px;
+}
+
+#u139-4
+{
+	background-color: transparent;
+	text-align: center;
+	line-height: 21px;
+	font-size: 21px;
+	color: #FFFFFF;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u139-2
+{
+	padding-top: 15px;
+}
+
+#u81
+{
+	border-color: #000000;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;
+	border-radius: 100px;
+	position: relative;
+	background: #FFFFFF url("../images/img_0255%20shop600x903-u81-fr.jpg") no-repeat center center;
+	background: rgba(0,0,0,0) url("../images/img_0255%20shop600x903.jpg") no-repeat center center;
+	background-color: #FFFFFF;
+	background-size: cover !important;
+}
+
+#u141-4
+{
+	background-color: transparent;
+	text-align: center;
+	line-height: 21px;
+	font-size: 21px;
+	color: #FFFFFF;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u141-2
+{
+	padding-top: 15px;
+}
+
+#u143-4
+{
+	background-color: transparent;
+	text-align: center;
+	line-height: 21px;
+	font-size: 21px;
+	color: #FFFFFF;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u133-4:hover p,#u139-4:hover p,#u141-4:hover p,#u143-4:hover p
+{
+	color: #2998F7;
+	visibility: inherit;
+}
+
+#u143-2
+{
+	padding-top: 15px;
+}
+
