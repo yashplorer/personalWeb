@@ -7,48 +7,18 @@
 #page
 {
 	z-index: 1;
-	width: 960px;
-	min-height: 500px;
+	width: 920px;
+	min-height: 379px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#page_position_content
-{
-	margin-top: 15px;
-	margin-bottom: 62px;
-}
-
-#pu518
-{
-	width: 0.01px;
-	margin-left: 704px;
-	position: relative;
-}
-
-#u518
-{
-	z-index: 20;
-	width: 140px;
-	min-height: 20px;
-	margin-right: -10000px;
-	left: 142px;
-}
-
-#u520
-{
-	z-index: 21;
-	width: 159px;
-	min-height: 24px;
-	margin-right: -10000px;
+	padding: 59px 19px 62px 21px;
 }
 
 #u75
 {
 	z-index: 2;
 	width: 920px;
-	margin-left: 21px;
-	margin-top: 11px;
+	left: -1px;
 }
 
 #u133-4
@@ -113,8 +83,8 @@
 #ppu581
 {
 	width: 0.01px;
-	margin-left: 59px;
-	margin-top: 50px;
+	margin-left: 38px;
+	margin-top: 41px;
 	position: relative;
 }
 
@@ -127,14 +97,20 @@
 
 #u581
 {
-	z-index: 39;
+	z-index: 37;
 	width: 249px;
 	position: relative;
 }
 
+#u581_img
+{
+	padding-right: 1px;
+	padding-bottom: 1px;
+}
+
 #u579
 {
-	z-index: 38;
+	z-index: 36;
 	width: 249px;
 	min-height: 100px;
 	border-style: none;
@@ -147,16 +123,15 @@
 
 #u411-16
 {
-	z-index: 22;
+	z-index: 20;
 	width: 591px;
 	min-height: 336px;
-	background-color: #666666;
-	background-color: rgba(51, 51, 51, 0.75);
-	color: #FFFFFF;
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.75);
 	position: relative;
 	margin-right: -10000px;
 	left: 260px;
-	-pie-background: rgba(51, 51, 51, 0.75);
+	-pie-background: rgba(255, 255, 255, 0.75);
 }
 
 #u411-2
@@ -167,6 +142,7 @@
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-top: 15px;
+	color: #000000;
 	font-family: raleway, sans-serif;
 	font-weight: 800;
 }
@@ -177,17 +153,36 @@
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-top: 15px;
+	color: #000000;
 	font-family: raleway, sans-serif;
 	font-weight: 300;
 }
 
-#u411-12,#u411-14
+#u411-12
 {
 	text-align: left;
 	line-height: 17px;
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-top: 15px;
+	color: #FFFFFF;
+	font-family: raleway, sans-serif;
+	font-weight: 300;
+}
+
+#u411-5,#u411-8,#u411-11
+{
+	color: #000000;
+}
+
+#u411-14
+{
+	text-align: left;
+	line-height: 17px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	color: #000000;
 	font-family: raleway, sans-serif;
 	font-weight: 300;
 }

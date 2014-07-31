@@ -1,0 +1,50 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="4132628999"/>
+    <file name="projects.css" crc="4129768557" ref="projects"/>
+    <file name="amendables.css" crc="4125387345" ref="amendables"/>
+    <file name="iefonts_amendables.css" crc="4172363592" ref="amendables"/>
+    <file name="index.css" crc="53731368" ref="index"/>
+    <file name="iefonts_index.css" crc="3982463897" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="pie-2014-06-24-16-03-03.svg" crc="4293087817" mt="1406762861000"/>
+    <file name="amendables-logo.svg" crc="339553638" mt="1406762857000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:projects:amendables"/>
+    <file name="museutils.js" crc="3865766194" ref="index:projects:amendables"/>
+    <file name="pie.js" crc="3827607177" ref="index:amendables"/>
+    <file name="jquery.musemenu.js" crc="3788803530" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="3937082470" ref="index"/>
+    <file name="webpro.js" crc="3903299128" ref="index"/>
+    <file name="form_check.php" crc="4257733307" ref="index"/>
+    <file name="form_throttle.php" crc="3966014863" ref="index"/>
+    <file name="form-u1453.php" crc="3995165759" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:projects:amendables"/>
+  </folder>
+  <folder name="images">
+    <file name="pie.png" crc="297812578" ref="index"/>
+    <file name="coins.png" crc="4250955363" ref="index"/>
+    <file name="usa.png" crc="3933929167" ref="index"/>
+    <file name="hat.png" crc="3763990081" ref="index"/>
+    <file name="mic.png" crc="3869200627" ref="index"/>
+    <file name="bubble.png" crc="121717408" ref="index"/>
+    <file name="u1454-17.png" crc="332034545" ref="index"/>
+    <file name="u1454-17-r.png" crc="3918784412" ref="index"/>
+    <file name="u1454-17-m.png" crc="4110854863" ref="index"/>
+    <file name="u1454-17-fs.png" crc="3800326680" ref="index"/>
+    <file name="up.png" crc="3941117560" ref="index:projects:amendables"/>
+    <file name="icon_1733.png" crc="33874665" ref="projects"/>
+    <file name="smhscs.png" crc="280481197" ref="projects"/>
+    <file name="icon_9228.png" crc="20658106" ref="projects"/>
+    <file name="amendables-logo.png" crc="346466946" ref="amendables"/>
+    <file name="profile pic-u1880.png" crc="44103498" ref="amendables"/>
+    <file name="profile pic-u1887.png" crc="44103498" ref="amendables"/>
+    <file name="profile pic-u1904.png" crc="44103498" ref="amendables"/>
+    <file name="profile pic-u1914.png" crc="44103498" ref="amendables"/>
+  </folder>
+  <file name="index.html" crc="80161795" mt="1406834359855" redirect="true"/>
+  <file name="projects.html" crc="481515847" mt="1406834368942" redirect="true"/>
+  <file name="amendables.html" crc="454594379" mt="1406834518636" redirect="true"/>
+</manifest>

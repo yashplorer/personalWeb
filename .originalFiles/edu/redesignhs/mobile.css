@@ -1,0 +1,212 @@
+@font-face {
+font-family: 'Bebas Neue';
+src: url(fonts/BebasNeue.otf);
+}
+@font-face {
+font-family: 'Helvetica Neue';
+src: url(fonts/HelveticaNeue.dfont);
+}
+*{
+	font-size: 1.25em;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+a {
+	text-decoration: underline;
+	color: white;
+}
+#home {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#sign {
+	background-image: url(img/dark.png);
+	background-repeat: repeat;
+}
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 36pt;
+	color: white;
+}
+h2 {
+	color: white;
+}
+input, p, article {
+	font-weight: 200;
+	color: white;
+}
+p, a, ul, li {
+	font-size: 18pt;
+	font-weight: 200;
+	color: white;
+}
+.imgTd {
+	width: 15%;
+	padding: 3%;
+}
+.title {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 13vw;
+	display: inline;
+	color: #fff;
+}
+#menuBar {
+	list-style-type: none;
+	display: inline;
+	text-align: center;
+	position: fixed;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#menuBar li {
+	top: -10px;
+	display: inline;
+	position: relative;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	background-color: #333;
+}
+#menubar a {
+	display: inline;
+	color: white;
+	text-decoration: none;
+}
+#wrapper {
+	background: url(img/bg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+#leftColumn {
+	margin-left: 5%;
+	width: 90%;
+
+}
+#rightColumn {
+	margin-left: 5%;
+	width: 90%;
+}
+#wrapper2 {
+	background-color: #333;
+	z-index: 5;
+	position: absolute;
+	margin-left: -55.05vw;
+	top: 100vh;
+	width: 100vw;
+	height: 100vh;
+
+}
+#projectTable tr {
+	height: 2px;
+}
+#projectTable img {
+	width: 75%;
+}
+.authorPic {
+	float: right;
+	position: absolute;
+	width: 20%;
+	padding: 10px;
+	margin-top: -1100px;
+	margin-left: 75%;
+}
+#sidebar {
+	float: right;
+	position: relative;
+	display: inline;
+}
+#box h2 {
+	float: right;
+	position: absolute;
+	width: 20%;
+	padding: 10px;
+	margin-top: -575px;
+	margin-left: 75%;
+}
+#box p {
+	float: right;
+	position: absolute;
+	width: 20%;
+	padding: 10px;
+	margin-top: -500px;
+	margin-left: 75%;
+}
+#box button {
+	float: right;
+	position: absolute;
+	width: 20%;
+	padding: 10px;
+	margin-top: -385px;
+	margin-left: 75%;
+	font-size: 18pt;
+	font-weight: 300;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+#updates h2 {
+	float: right;
+	position: absolute;
+	width: 20%;
+	padding: 10px;
+	margin-top: -300px;
+	margin-left: 75%;
+}
+#updates p {
+	
+}
+/* for google form */
+.ss-form-title {
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+}
+.ss-q-title {
+	font-size: .2em;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	color: white;
+}
+.required-message {
+	font-size: .2em;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	color: white;
+}
+.ss-q-short {
+	height: 30px;
+	width: 90%
+}
+.ss-form-question {
+	height: 100px;
+}
+.error-message {
+	font-size: .2em;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	color: white;
+	padding: 10px;
+}
+input {
+	position: absolute;
+	display: block;
+	font-size: .2em;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	color: black;
+}
+#ss-submit {
+	position: relative;
+	display: inline;
+}
+textarea {
+	font-size: .2em;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+	color: black;
+	width: 99%;
+	height: 150px;
+	display: block;
+
+}

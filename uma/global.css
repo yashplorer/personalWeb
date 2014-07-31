@@ -1,0 +1,19 @@
+body {
+	background: url(bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+span {
+	font-family: 'Varela Round', 'Quicksand', 'Comfortaa', Helvetica, sans-serif;
+	color: white;
+}
+.big {
+	font-size: 3em;
+}
+.center{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}

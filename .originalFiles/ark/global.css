@@ -1,0 +1,28 @@
+#sabPromo {
+	height: 95vh;
+}
+
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+a {
+	-webkit-border-radius: 15;
+	-moz-border-radius: 15;
+	border-radius: 15px;
+	color: #333;
+	background: #FFF;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border:none;
+	position: relative;
+	left: 40%;
+	bottom: 10px;
+}
+a:hover {
+	background: #333;
+	color:#FFF;
+	text-decoration: none;
+}
