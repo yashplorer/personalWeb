@@ -1,200 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://yashplorer.com/assets/pie-2014-06-24-16-03-03.svg</loc>
-    <lastmod>2014-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/assets/amendables-logo.svg</loc>
-    <lastmod>2014-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://yashplorer.com/images/master-favicon.ico</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/images/14261706754_380c30bb56_o.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/13080818773_aeb4c85028_o.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/smhsbg.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/bg2.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/13931955445_1016381c2b_o.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/13571709815_a1bfc5ae31_o.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/12063264755_ebb5fbd0ba_o.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/images/12959328855_29b5b104ed_o.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/images/profile%20pic-u81-fr.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/images/profile%20pic907x600.jpg</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/images/favicon.png</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/images/original.png</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/images/logo.png</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/images/logo2.png</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/u258-4.png</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/smhspaper.png</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/smhscs.png</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/smhswifi.png</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/smhscookie.png</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/smhsdbx.png</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/images/img.png</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/index.html</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/edu.html</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/smhs.html</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://yashplorer.com/ark.html</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/smuhsd.html</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/wifi.html</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/copypaper.html</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/dbx.html</loc>
-    <lastmod>2014-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://yashplorer.com/cfcs.html</loc>
-    <lastmod>2014-07-31</lastmod>
+    <lastmod>2014-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

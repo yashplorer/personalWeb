@@ -1,42 +1,22 @@
 <manifest alg="2" build="314" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="4132628999"/>
-    <file name="master_master.css" crc="176352672" ref="wifi:smhs:index:edu:ark:smuhsd:copypaper:dbx:cfcs"/>
-    <file name="wifi.css" crc="4211629471" ref="wifi"/>
-    <file name="smhs.css" crc="4154351853" ref="smhs"/>
-    <file name="index.css" crc="508595924" ref="index"/>
+    <file name="master_master.css" crc="17992517" ref="index:ark"/>
+    <file name="index.css" crc="4140905642" ref="index"/>
     <file name="iefonts_index.css" crc="117579665" ref="index"/>
-    <file name="edu.css" crc="4273270948" ref="edu"/>
-    <file name="iefonts_edu.css" crc="3828842355" ref="edu"/>
     <file name="ark.css" crc="490290295" ref="ark"/>
     <file name="iefonts_ark.css" crc="395260789" ref="ark"/>
-    <file name="smuhsd.css" crc="230599349" ref="smuhsd"/>
-    <file name="iefonts_smuhsd.css" crc="480557247" ref="smuhsd"/>
-    <file name="copypaper.css" crc="3941618446" ref="copypaper"/>
-    <file name="dbx.css" crc="3933210624" ref="dbx"/>
-    <file name="cfcs.css" crc="4225319371" ref="cfcs"/>
-  </folder>
-  <folder name="assets">
-    <file name="pie-2014-06-24-16-03-03.svg" crc="4293087817" mt="1406762861000"/>
-    <file name="amendables-logo.svg" crc="339553638" mt="1406762857000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:edu:smhs:ark:smuhsd:wifi:copypaper:dbx:cfcs"/>
-    <file name="museutils.js" crc="3865766194" ref="index:edu:smhs:ark:smuhsd:wifi:copypaper:dbx:cfcs"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:edu:smhs:ark:smuhsd:wifi:copypaper:cfcs"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="index:edu:smhs:ark:smuhsd:wifi:copypaper:dbx:cfcs"/>
-    <file name="jquery.scrolleffects.js" crc="3937082470" ref="wifi"/>
-    <file name="pie.js" crc="3827607177" ref="index:edu:ark:smuhsd:wifi:copypaper:cfcs"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:ark"/>
+    <file name="museutils.js" crc="3865766194" ref="index:ark"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:ark"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:ark"/>
+    <file name="pie.js" crc="3827607177" ref="index:ark"/>
   </folder>
   <folder name="images">
     <file name="master-favicon.ico" crc="3953748667" ref="index"/>
     <file name="14261706754_380c30bb56_o.jpg" crc="37601586" ref="index"/>
-    <file name="13080818773_aeb4c85028_o.jpg" crc="3872068827" ref="edu"/>
-    <file name="smhsbg.jpg" crc="4233956378" ref="smhs"/>
-    <file name="bg2.jpg" crc="4082003985" ref="cfcs"/>
-    <file name="13931955445_1016381c2b_o.jpg" crc="3821412767" ref="smuhsd"/>
-    <file name="13571709815_a1bfc5ae31_o.jpg" crc="441075133" ref="wifi"/>
-    <file name="12063264755_ebb5fbd0ba_o.jpg" crc="322367886" ref="copypaper"/>
     <file name="12959328855_29b5b104ed_o.jpg" crc="174691344" ref="ark"/>
     <file name="profile pic-u81-fr.jpg" crc="133728248" ref="index"/>
     <file name="profile pic907x600.jpg" crc="3896290785" ref="index"/>
@@ -44,21 +24,7 @@
     <file name="original.png" crc="3852993606" ref="index"/>
     <file name="logo.png" crc="494938147" ref="index:ark"/>
     <file name="logo2.png" crc="223946194" ref="index"/>
-    <file name="u258-4.png" crc="124946311" ref="smhs"/>
-    <file name="smhspaper.png" crc="3826416228" ref="smhs"/>
-    <file name="smhscs.png" crc="4278589541" ref="smhs"/>
-    <file name="smhswifi.png" crc="3945629921" ref="smhs"/>
-    <file name="smhscookie.png" crc="4082521219" ref="smhs"/>
-    <file name="smhsdbx.png" crc="4111482737" ref="smhs"/>
-    <file name="img.png" crc="4020111770" ref="cfcs"/>
   </folder>
-  <file name="index.html" crc="4218156212" mt="1406834821327" redirect="true"/>
-  <file name="edu.html" crc="4232559291" mt="1406834595322" redirect="true"/>
-  <file name="smhs.html" crc="4070896725" mt="1406834595324" redirect="true"/>
-  <file name="ark.html" crc="466921306" mt="1406834595325" redirect="true"/>
-  <file name="smuhsd.html" crc="3800873571" mt="1406834595327" redirect="true"/>
-  <file name="wifi.html" crc="514454586" mt="1406834595328" redirect="true"/>
-  <file name="copypaper.html" crc="323587750" mt="1406834595330" redirect="true"/>
-  <file name="dbx.html" crc="273841283" mt="1406834595331" redirect="true"/>
-  <file name="cfcs.html" crc="524589957" mt="1406834595333" redirect="true"/>
+  <file name="index.html" crc="3898870040" mt="1406910210266" redirect="true"/>
+  <file name="ark.html" crc="4040525230" mt="1406910210268" redirect="true"/>
 </manifest>
