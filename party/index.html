@@ -1,5 +1,5 @@
 <style type="text/css">
-	*{
+	* {
 		color: white;
 	}
 </style>
@@ -76,7 +76,7 @@
 	 	<td>Case Sandberg</td>
 	 	<td><a href="http://goo.gl/nn6dOY">LinkedIn</a></td>
 	 	<td>Thiel Foundation</td>
-	 	<td>Declined</td>
+	 	<td class="dec">Declined</td>
  	</tr>
 	 <tr>
 	 	<td>Chris Gervang</td>
@@ -106,25 +106,25 @@
 	 	<td>Hannah Pham</td>
 	 	<td><a href="http://goo.gl/q9yiT9">LinkedIn</a></td>
 	 	<td>ARK</td>
-	 	<td>Declined</td>
+	 	<td class="dec">Declined</td>
  	</tr>
 	 <tr>
 	 	<td>Ilya Rozenblat</td>
 	 	<td>No LinkedIn</td>
 	 	<td>San Mateo High School</td>
-	 	<td>Declined</td>
+	 	<td class="dec">Declined</td>
  	</tr>
 	 <tr>
 	 	<td>Joshua Pham</td>
 	 	<td><a href="http://goo.gl/ZfrlOY">LinkedIn</a></td>
 	 	<td>CodeDay</td>
-	 	<td>Declined</td>
+	 	<td class="dec">Declined</td>
  	</tr>
  	<tr>
 	 	<td>Mieke Voges</td>
 	 	<td>No LinkedIn</td>
 	 	<td>San Mateo High School</td>
-	 	<td>Confirmed</td>
+	 	<td class="conf">Confirmed</td>
  	</tr>
 	 <tr>
 	 	<td>Rafael Cosman</td>
@@ -154,7 +154,7 @@
 	 	<td>Sherzod Max</td>
 	 	<td><a href="http://goo.gl/pbpa2w">LinkedIn</a></td>
 	 	<td>Palantir</td>
-	 	<td>Confirmed</td>
+	 	<td class="conf">Confirmed</td>
  	</tr>
 	 <tr>
 	 	<td>Theresa Gao</td>
@@ -187,6 +187,8 @@
 		var passwordAttempt = prompt("Please enter your password");
 		if (passwordAttempt === "surfbird") {
 			$("*").css("color", "black");
+			$(".dec").css("color", "red");
+			$(".conf").css("color", "green");
 			console.log('hi');
 		} else {
 			alert("Incorrect password!");
