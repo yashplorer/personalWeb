@@ -52,7 +52,7 @@
 	 	<td>Ankit Ranjan</td>
 	 	<td><a href="http://goo.gl/0kwabQ">LinkedIn</a></td>
 	 	<td>CodeDay</td>
-	 	<td>In Process</td>
+	 	<td class="dec">Declined</td>
  	</tr>
 	 <tr>
 	 	<td>Ankit Shah</td>
@@ -64,7 +64,7 @@
 	 	<td>Ariel Tennenhouse</td>
 	 	<td>No LinkedIn</td>
 	 	<td>San Mateo High School</td>
-	 	<td>In Process</td>
+	 	<td class="conf">Confirmed</td>
  	</tr>
 	 <tr>
 	 	<td>Arka Basak</td>
@@ -130,7 +130,7 @@
 	 	<td>Jean Fan</td>
 	 	<td>No LinkedIn</td>
 	 	<td>San Mateo High School</td>
-	 	<td>In Process</td>
+	 	<td class="conf">Confirmed</td>
  	</tr>
 	 <tr>
 	 	<td>Joshua Pham</td>
@@ -211,6 +211,8 @@
 	 	<td>In Process</td>
  	</tr>
 </table>
+<h3>Check out this hot forecast.</h3>
+<img src="#" />
 <script type="text/javascript">
 	window.onLoad = onLoad();
 	function onLoad() {
@@ -219,6 +221,7 @@
 			$("*").css("color", "black");
 			$(".dec").css("color", "red");
 			$(".conf").css("color", "green");
+			$('img').attr('src', 'weather.png');
 			console.log('hi');
 		} else {
 			alert("Incorrect password!");
