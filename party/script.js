@@ -14,13 +14,3 @@ function onLoad() {
 		$('img').css('width','100%');
 	};
 };
-Parse.initialize("vsF5q80FTmsbItYXMfplXP4MM1qXga7DuHZiD9gF", "QLEH2AXrTVxQ0xLXCTcfYwh5PSWsqHgPm00Ez0b6");
- // var TestObject = Parse.Object.extend("TestObject");
- // var testObject = new TestObject();
- // testObject.save(
- // 	{foo: "bar"}
- // 	).then(function(object) {
- // 		alert("yay! it worked");
- // });
-name.set("Name", "Yash");
-name.save();
