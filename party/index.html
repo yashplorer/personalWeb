@@ -1,3 +1,4 @@
+<script src="http://www.parsecdn.com/js/parse-1.2.19.min.js"></script>
 <style type="text/css">
 	* {
 		color: white;
@@ -241,6 +242,13 @@
 
 	</tr>
 	<tr>
+		<td>Sarah Rossi</td>
+		<td>&nbsp;</td>
+		<td>http://goo.gl/ZpJfWj</td>
+		<td>San Mateo High School</td>
+
+	</tr>
+	<tr>
 		<td>Shadi Barhoumi</td>
 		<td>Confirmed</td>
 		<td>http://goo.gl/MI6Odj</td>
@@ -285,21 +293,4 @@
 </table>
 <h3>Check out this hot forecast.</h3>
 <img id="weather" src="#" />
-<script type="text/javascript">
-	window.onLoad = onLoad();
-	function onLoad() {
-		var passwordAttempt = prompt("Please enter your password");
-		if (passwordAttempt === "surfbird") {
-			$("*").css("color", "black");
-			$(".dec").css("color", "red");
-			$(".conf").css("color", "green");
-			$('img').attr('src', 'weather.png');
-			console.log('hi');
-		} else {
-			alert("Incorrect password!");
-		};
-		if ($(window).width() < 989){
-			$('img').css('width','100%');
-		};
-	};
-</script>
+<script src="script.js" type="text/javascript"></script>
