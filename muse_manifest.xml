@@ -1,30 +1,26 @@
 <manifest alg="2" build="314" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="4132628999"/>
-    <file name="master_master.css" crc="17992517" ref="index:ark"/>
-    <file name="index.css" crc="4140905642" ref="index"/>
+    <file name="master_master.css" crc="3781317065" ref="index"/>
+    <file name="index.css" crc="4144764899" ref="index"/>
     <file name="iefonts_index.css" crc="117579665" ref="index"/>
-    <file name="ark.css" crc="490290295" ref="ark"/>
-    <file name="iefonts_ark.css" crc="395260789" ref="ark"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:ark"/>
-    <file name="museutils.js" crc="3865766194" ref="index:ark"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:ark"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="index:ark"/>
-    <file name="pie.js" crc="3827607177" ref="index:ark"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3865766194" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
   </folder>
   <folder name="images">
     <file name="master-favicon.ico" crc="3953748667" ref="index"/>
     <file name="14261706754_380c30bb56_o.jpg" crc="37601586" ref="index"/>
-    <file name="12959328855_29b5b104ed_o.jpg" crc="174691344" ref="ark"/>
     <file name="profile pic-u81-fr.jpg" crc="133728248" ref="index"/>
     <file name="profile pic907x600.jpg" crc="3896290785" ref="index"/>
     <file name="favicon.png" crc="146284323" ref="index"/>
     <file name="original.png" crc="3852993606" ref="index"/>
-    <file name="logo.png" crc="494938147" ref="index:ark"/>
-    <file name="logo2.png" crc="223946194" ref="index"/>
+    <file name="logo.png" crc="179712090" ref="index"/>
+    <file name="logo2-u1312.png" crc="81461922" ref="index"/>
   </folder>
-  <file name="index.html" crc="3898870040" mt="1406910210266" redirect="true"/>
-  <file name="ark.html" crc="4040525230" mt="1406910210268" redirect="true"/>
+  <file name="index.html" crc="257593075" mt="1414199262317" redirect="true"/>
 </manifest>

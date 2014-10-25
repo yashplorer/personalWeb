@@ -1,0 +1,97 @@
+#u2259
+{
+	border-color: #000000;
+	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.9);
+	position: relative;
+	-pie-background: rgba(255, 255, 255, 0.9);
+}
+
+#u2261-4
+{
+	background-color: transparent;
+	line-height: 21px;
+	color: #000000;
+	font-size: 21px;
+	text-align: center;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2261-2
+{
+	padding-top: 15px;
+}
+
+#u2262-4
+{
+	background-color: transparent;
+	line-height: 21px;
+	color: #000000;
+	font-size: 21px;
+	text-align: center;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2262-2
+{
+	padding-top: 15px;
+}
+
+#u2260
+{
+	border-color: #000000;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;
+	border-radius: 100px;
+	position: relative;
+	background: #FFFFFF url("../images/profile%20pic-u2260-fr.jpg") no-repeat center center;
+	background: rgba(0,0,0,0) url("../images/profile%20pic907x600.jpg") no-repeat center center;
+	background-color: #FFFFFF;
+	background-size: cover !important;
+}
+
+#u2263-4
+{
+	background-color: transparent;
+	line-height: 21px;
+	color: #000000;
+	font-size: 21px;
+	text-align: center;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2263-2
+{
+	padding-top: 15px;
+}
+
+#u2264-4
+{
+	background-color: transparent;
+	line-height: 21px;
+	color: #000000;
+	font-size: 21px;
+	text-align: center;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u2261-4:hover p,#u2262-4:hover p,#u2263-4:hover p,#u2264-4:hover p
+{
+	color: #A40626;
+	visibility: inherit;
+}
+
+#u2264-2
+{
+	padding-top: 15px;
+}
+

@@ -1,0 +1,41 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3892657588"/>
+    <file name="master_master.css" crc="56752196" ref="model-united-nations:index:acts-of-random-kindness-club:programming-club"/>
+    <file name="model-united-nations.css" crc="511003382" ref="model-united-nations"/>
+    <file name="iefonts_model-united-nations.css" crc="3985783159" ref="model-united-nations"/>
+    <file name="index.css" crc="3788674763" ref="index"/>
+    <file name="iefonts_index.css" crc="3835182672" ref="index"/>
+    <file name="acts-of-random-kindness-club.css" crc="518539060" ref="acts-of-random-kindness-club"/>
+    <file name="iefonts_acts-of-random-kindness-club.css" crc="4096165999" ref="acts-of-random-kindness-club"/>
+    <file name="programming-club.css" crc="502166033" ref="programming-club"/>
+    <file name="iefonts_programming-club.css" crc="277249863" ref="programming-club"/>
+  </folder>
+  <folder name="assets">
+    <file name="pie-2014-06-24-16-03-03.svg" crc="4293087817" mt="1406762861000"/>
+    <file name="amendables-logo.svg" crc="339553638" mt="1406762857000"/>
+    <file name="wifi.pdf" crc="4207174713" mt="1407973430000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:programming-club:acts-of-random-kindness-club:model-united-nations"/>
+    <file name="museutils.js" crc="3865766194" ref="index:programming-club:acts-of-random-kindness-club:model-united-nations"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:programming-club:acts-of-random-kindness-club:model-united-nations"/>
+    <file name="pie.js" crc="3827607177" ref="index:programming-club:acts-of-random-kindness-club:model-united-nations"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:programming-club:acts-of-random-kindness-club:model-united-nations"/>
+  </folder>
+  <folder name="images">
+    <file name="clubs-favicon.ico" crc="393756536" ref="index"/>
+    <file name="profile pic-u2260-fr.jpg" crc="133728248" ref="index:acts-of-random-kindness-club"/>
+    <file name="profile pic907x600.jpg" crc="3896290785" ref="index:acts-of-random-kindness-club"/>
+    <file name="master-favicon.ico" crc="3953748667" ref="programming-club:acts-of-random-kindness-club"/>
+    <file name="logo.png" crc="3990654510" ref="acts-of-random-kindness-club"/>
+    <file name="14487968667_f87baa78be_o.png" crc="107799558" ref="index"/>
+    <file name="13081025824_35e470aa9a_o.png" crc="4087258504" ref="programming-club"/>
+    <file name="10648700_1470229246591342_8977344409633746187_o.jpg" crc="3798131310" ref="acts-of-random-kindness-club"/>
+    <file name="15345419472_93c7612d13_o.png" crc="3872105014" ref="model-united-nations"/>
+  </folder>
+  <file name="index.html" crc="505185387" mt="1414197225461" redirect="true"/>
+  <file name="programming-club.html" crc="373937802" mt="1414198655977" redirect="true"/>
+  <file name="acts-of-random-kindness-club.html" crc="3976840960" mt="1414199198162" redirect="true"/>
+  <file name="model-united-nations.html" crc="4250914253" mt="1414198974053" redirect="true"/>
+</manifest>
