@@ -1,6 +1,6 @@
 <head>
     <title>Yash's GIFs: Michelle</title>
-    <link href="../videojs/video-js.css" rel="stylesheet" type="text/css">
+    <!-- <link href="../videojs/video-js.css" rel="stylesheet" type="text/css"> -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript">
     	window.onload = fx;
@@ -14,11 +14,15 @@
 			$('video').css('height', h + 'px');
         }
         function play() {
-        	$(this).attr('autoplay', 'true');
+        	if ($(this).attr('autoplay') === true) $(this).attr('loop', false);
+        	else {
+        		$(this).attr('autoplay', true);
+        		$(this).attr('loop', true);
+        	}
         }
     </script>
-    <script src="../videojs/video.js"></script>
-    <script>videojs.options.flash.swf = "../videojs/video-js.swf";</script>
+    <!--<script src="../videojs/video.js"></script>-->
+    <!--<script>videojs.options.flash.swf = "../videojs/video-js.swf";</script>-->
 </head>
 <body>
 	<center style="width: 90%; margin: auto;">
@@ -26,35 +30,22 @@
 		<h2>Chicken Wing</h2>
 		<video
 			onclick = 'play()'
-			preload
-			loop
-	        id="example_video_1"
-	        class="video-js vjs-default-skin"
+			preload = true
+			loop = true
 	        width='100%'
-	        data-setup="{}"
-	        style="position:relative;display:inline"
+	        style="position: relative; display: inline"
 	    >
 	        <source src="chickenwing.mp4" type='video/mp4'/>
-	        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
-	            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-	        </p>
 	    </video>
 	    <h2>Anyways, yeah.</h2>
 	    <video
 	    	onclick = 'play()'
-	    	preload
-	    	loop
-	        id="example_video_1"
-	        class="video-js vjs-default-skin"
+			preload = true
+			loop = true
 	        width='100%'
-	        data-setup="{}"
-	        style="position:relative;display:inline"
-
+	        style="position: relative; display: inline"
 	    >
 	        <source src="anywaysyeah.mp4" type='video/mp4'/>
-	        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
-	            <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-	        </p>
 	    </video>
     </center>
 </body>
