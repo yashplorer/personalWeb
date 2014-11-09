@@ -14,7 +14,7 @@
 			$('video').css('height', h + 'px');
         }
         function play() {
-        	if ($(this).attr('autoplay') === true) $(this).attr('loop', false);
+        	if ($(this).attr('autoplay') === 'true' && $(this).attr('loop') === 'true') $(this).attr('loop', false);
         	else {
         		$(this).attr('autoplay', true);
         		$(this).attr('loop', true);
@@ -30,20 +30,20 @@
 			onclick = 'play()'
 			preload = true
 			loop = true
-	        width='100%'
-	        style="position: relative; display: inline"
+	        width = '100%'
+	        style = "position: relative; display: inline"
 	    >
-	        <source src="chickenwing.mp4" type='video/mp4'/>
+	        <source src = "chickenwing.mp4" type = 'video/mp4'/>
 	    </video>
 	    <h2>Anyways, yeah.</h2>
 	    <video
 	    	onclick = 'play()'
 			preload = true
 			loop = true
-	        width='100%'
-	        style="position: relative; display: inline"
+	        width = '100%'
+	        style = "position: relative; display: inline"
 	    >
-	        <source src="anywaysyeah.mp4" type='video/mp4'/>
+	        <source src = "anywaysyeah.mp4" type = 'video/mp4'/>
 	    </video>
     </center>
 </body>
