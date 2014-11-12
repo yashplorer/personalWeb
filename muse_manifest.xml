@@ -1,8 +1,8 @@
 <manifest alg="2" build="314" opt="false" iceEnabled="true">
   <folder name="css">
     <file name="site_global.css" crc="4132628999"/>
-    <file name="master_master.css" crc="4064208713" ref="index"/>
-    <file name="index.css" crc="3995783500" ref="index"/>
+    <file name="master_master.css" crc="4009253827" ref="index"/>
+    <file name="index.css" crc="32451485" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -12,27 +12,17 @@
   </folder>
   <folder name="images">
     <file name="master-favicon.ico" crc="3953748667" ref="index"/>
-    <file name="profile pic-u81-fr.jpg" crc="133728248" ref="index"/>
-    <file name="profile pic907x600.jpg" crc="3896290785" ref="index"/>
     <file name="favicon.png" crc="146284323" ref="index"/>
     <file name="original.png" crc="3852993606" ref="index"/>
     <file name="logo.png" crc="179712090" ref="index"/>
     <file name="logo2-u1312.png" crc="81461922" ref="index"/>
-    <file name="u1319-4.png" crc="103720360" ref="index"/>
     <file name="github-mark 2.png" crc="34495940" ref="index"/>
     <file name="github-mark.png" crc="240899926" ref="index"/>
     <file name="github-mark 4.png" crc="9733757" ref="index"/>
     <file name="github-mark 5.png" crc="4068568008" ref="index"/>
     <file name="github-mark 3.png" crc="432709536" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="u931_states.png" crc="481160778" ref="index"/>
-    <file name="u931_states-r.png" crc="354156035" ref="index"/>
-    <file name="u944_states.png" crc="313893599" ref="index"/>
-    <file name="u944_states-r.png" crc="457850669" ref="index"/>
-    <file name="u1318_states.png" crc="376622049" ref="index"/>
-    <file name="u1318_states-r.png" crc="473132893" ref="index"/>
-    <file name="u932_states.png" crc="121503657" ref="index"/>
-    <file name="u932_states-r.png" crc="3805545348" ref="index"/>
+    <file name="profile pic-u81-fr.png" crc="461299948" ref="index"/>
+    <file name="profile pic907x600.png" crc="262292474" ref="index"/>
   </folder>
-  <file name="index.html" crc="4105491136" mt="1414258153620" redirect="true"/>
+  <file name="index.html" crc="4075190905" mt="1415759408971" redirect="true"/>
 </manifest>

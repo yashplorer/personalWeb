@@ -49,8 +49,8 @@
 	-khtml-border-radius: 100px;
 	border-radius: 100px;
 	position: relative;
-	background: #FFFFFF url("../images/profile%20pic-u81-fr.jpg") no-repeat center center;
-	background: rgba(0,0,0,0) url("../images/profile%20pic907x600.jpg") no-repeat center center;
+	background: #FFFFFF url("../images/profile%20pic-u81-fr.png") no-repeat center center;
+	background: rgba(0,0,0,0) url("../images/profile%20pic907x600.png") no-repeat center center;
 	background-color: #FFFFFF;
 	background-size: cover !important;
 }
