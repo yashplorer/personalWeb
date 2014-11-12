@@ -3,11 +3,11 @@
     <link rel="stylesheet" type="text/css" href="../../css/blog.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript">
-    	window.onload = fx;
+    	window.onload, window.onresize = fx;
     	function fx() {
     		var w = $(window).width();
     		console.log(w);
-    		w *= .9
+    		w < 700 ? w *= .9 : w *= .6;
     		console.log(w);
 			var h = (1080 * w) / 1920;
 			console.log(h);

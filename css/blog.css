@@ -1,17 +1,27 @@
 * {
 	font-family: 'Helvetica Neue', 'Raleway', Helvetica, sans-serif;
 }
+@media only screen and (max-width:699px){
+	body {
+		width: 90%;
+		margin: 5vw auto;
+	}
+}
+@media only screen and (min-width:700px){
+	body {
+		width: 60%;
+		margin: 5vw auto;
+	}
+}
 body {
-	width: 90%;
-	margin: 5vw auto;
 	background-image: url("../images/pattern.png");
     background-repeat: repeat;
 }
 article {
-	background-color: #FFF;
-	border: rgba(0, 0, 0, .3) solid 1px;
+	background-color: rgba(255, 255, 255, .7);
+	border: rgba(0, 0, 0, .1) solid 1px;
 	border-radius: 5px;
-	/*box-shadow: inset 0px 0px 10px;*/
+	/*box-shadow: 0px 0px 2px;*/
 	padding: 20px;
 	margin-bottom: 10px;
 }
