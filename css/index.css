@@ -1,6 +1,6 @@
 .html
 {
-	background-color: #FFFFFF;
+	background: #FFFFFF url("../images/sativa.png") repeat center center;
 }
 
 #page
@@ -143,8 +143,7 @@
 {
 	z-index: 50;
 	width: 450px;
-	min-height: 198px;
-	border-style: solid;
+	min-height: 200px;
 	border-color: #333333;
 	background-color: #FFFFFF;
 	background-color: rgba(255, 255, 255, 0.75);
@@ -154,7 +153,6 @@
 	font-weight: bold;
 	position: relative;
 	margin-right: -10000px;
-	border-width: 1px 0px;
 	-pie-background: rgba(255, 255, 255, 0.75);
 }
 
@@ -229,7 +227,6 @@
 #pu833
 {
 	width: 0.01px;
-	padding-bottom: 0px;
 	position: relative;
 	margin-right: -10000px;
 	left: 470px;
@@ -239,7 +236,7 @@
 {
 	z-index: 23;
 	width: 450px;
-	min-height: 549px;
+	min-height: 562px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
@@ -250,14 +247,12 @@
 {
 	z-index: 25;
 	width: 420px;
-	border-style: solid;
 	border-color: #333333;
 	background-color: #FFFFFF;
 	background-color: rgba(255, 255, 255, 0.75);
 	margin-top: 7px;
 	position: relative;
-	padding: 14px 15px 31.0662420382165px;
-	border-width: 1px 0px;
+	padding: 33px 15px 14.066242038216501px;
 	-pie-background: rgba(255, 255, 255, 0.75);
 }
 
