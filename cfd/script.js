@@ -21,7 +21,7 @@ function myFunciton(){
                 request.setRequestHeader('oauth_timestamp', '1416646360');
                 request.setRequestHeader('oauth_token', '1455459518-1dGAa428AdiKgZqUSW2VBcQ7s2TC87fuk9vCSmC');
                 request.setRequestHeader('oauth_version', '1.0');
-                request.setRequestHeader('Access-Control-Allow-Origin', 'null');
+                request.setRequestHeader('Access-Control-Allow-Origin', 'http://yashplorer.com');
             },
             url: 'https://api.twitter.com/1.1/search/tweets.json' + '?q=' + '%23EllenCANHelpSMHS%20%23smhscfd%20smhscfd%20%22cfd%22',
             success: function(tweets){
