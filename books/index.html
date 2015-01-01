@@ -7,7 +7,7 @@
 	<body>
 		<h1>Books</h1>
 		<p>Borrow books from Yash.</p>
-		<div class="datagrid">
+		<div>
 			<table>
 				<thead>
 					<tr>
@@ -43,11 +43,11 @@
 	<script type="text/javascript">
 	var cells = document.getElementsByTagName("td");
 		for (var i = 0; i < cells.length; i++) {
-		  if (cells[i].innerHTML === "Available") {
-		  	cells[i].style.color = '#00CC00';
-		  } else if (cells[i].innerHTML === "In Use") {
-		  	cells[i].style.color = '#CC3300';
-		  }
+			if (cells[i].innerHTML === "Available") {
+				cells[i].innerHTML = "<a href='mailto:yashplorer@gmail.com?subject=Book%20Request'>Available</a>";
+			} else if (cells[i].innerHTML === "In Use") {
+				cells[i].style.color = '#CC3300';
+			}
 		}
 	</script>
 </html>
