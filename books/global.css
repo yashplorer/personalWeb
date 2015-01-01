@@ -1,11 +1,11 @@
 @font-face {
     font-family: Didot;
-    src: url(font/Didot.ttc);
+    src: url(font/Didot.otf);
     font-weight: 900;
 }
 @font-face {
     font-family: Baskerville;
-    src: url(font/Baskerville.ttc);
+    src: url(font/Baskerville.otf);
     font-weight: 100;
 }
 * {
