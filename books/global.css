@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Didot;
+    src: url(font/Didot.ttc);
+    font-weight: 900;
+}
+@font-face {
+    font-family: Baskerville;
+    src: url(font/Baskerville.ttc);
+    font-weight: 100;
+}
+* {
+	font-family: Didot, Baskerville, serif;
+}
+body {
+	background: url(bg.png) repeat;
+}
+h1 {
+	font-family: Didot;
+	margin: 0;
+}
+p {
+	font-family: Baskerville;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+}
+td, th {
+	padding: 5px;
+}
+thead th {
+	background: 0;
+	border-bottom: black solid thin;
+	/*background-color: #000;*/
+	font-size: 12px;
+	font-family: Didot;
+	font-weight: 900;
+}
+
+tbody td {
+	color:#000;
+	font-family: Baskerville;
+	font-size:10px;
+	font-weight:400;
+}
+
+tbody td:first-child {
+	border-left: none;
+}
+
+tbody tr:last-child td {
+	border-bottom: none;
+}

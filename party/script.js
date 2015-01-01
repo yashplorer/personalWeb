@@ -1,7 +1,7 @@
 window.onLoad = onLoad();
 function onLoad() {
 	var passwordAttempt = prompt("Please enter your password");
-	if (passwordAttempt === "kayak") {
+	if (passwordAttempt === "17on17") {
 		$("*").css("color", "black");
 		$(".dec").css("color", "red");
 		$(".conf").css("color", "green");
@@ -10,7 +10,7 @@ function onLoad() {
 	} else {
 		alert("Incorrect password!");
 	};
-	if ($(window).width() < 989){
+	if ($(window).width() < 2000){
 		$('img').css('width','100%');
 	};
 };

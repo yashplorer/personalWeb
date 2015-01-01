@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/blog.css">
+		<link rel="stylesheet" type="text/css" href="global.css">
+	</head>
+	<body>
+		<h1>Books</h1>
+		<p>Borrow books from Yash.</p>
+		<div class="datagrid">
+			<table>
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Author</th>
+						<th>Year</th>
+						<th>Status</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>The Master Switch</td>
+						<td>Tim Wu</td>
+						<td>2011</td>
+						<td>Available</td>
+					</tr>
+					<tr>
+						<td>How to Win Friends and Influence People in the Digital Age</td>
+						<td>Dale Carnegie and Associates</td>
+						<td>2011</td>
+						<td>In Use</td>
+					</tr>
+					<tr>
+						<td>Young Leaders 3.0</td>
+						<td>Jason Ma</td>
+						<td>2014</td>
+						<td>In Use</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+	<script type="text/javascript">
+	var cells = document.getElementsByTagName("td");
+		for (var i = 0; i < cells.length; i++) {
+		  if (cells[i].innerHTML === "Available") {
+		  	cells[i].style.color = '#00CC00';
+		  } else if (cells[i].innerHTML === "In Use") {
+		  	cells[i].style.color = '#CC3300';
+		  }
+		}
+	</script>
+</html>
