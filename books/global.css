@@ -24,7 +24,7 @@ p {
 	font-family: Baskerville;
 	font-weight: normal;
 }
-td, a{
+td, a, span{
 	font-family: Baskerville;
 	font-weight: normal;
 	font-size: 10pt;
@@ -41,12 +41,6 @@ th {
 	font-family: Didot;
 	font-weight: bold;
 	font-size: 12pt;
-}
-a {
-	color: #00CC00;
-}
-a:hover {
-	color: #008F00;
 }
 td, th {
 	padding: 5px;

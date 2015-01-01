@@ -7,6 +7,7 @@
 	<body>
 		<h1>Books</h1>
 		<p>Borrow books from Yash.</p>
+		<span>Books marked as <em style="color: #00CC00">available</em> are available for borrowing and require clicking the link to make a book request. Books marked as <em style="color: #CC3300">in use</em> are currently in use but can be reserved by clicking the link to make a reservation. Books marked as <em style="color: black">reserved</em> are reserved by a borrower and may not be reserved nor requested.</span>
 		<div>
 			<table>
 				<thead>
@@ -19,9 +20,9 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>The Master Switch</td>
-						<td>Tim Wu</td>
-						<td>2011</td>
+						<td>American Colonies</td>
+						<td>Alan Taylor</td>
+						<td>2002</td>
 						<td>Available</td>
 					</tr>
 					<tr>
@@ -31,10 +32,28 @@
 						<td>In Use</td>
 					</tr>
 					<tr>
+						<td>The Master Switch</td>
+						<td>Tim Wu</td>
+						<td>2011</td>
+						<td>Available</td>
+					</tr>
+					<tr>
+						<td>The Thirteen American Arguments</td>
+						<td>Howard Fineman</td>
+						<td>2009</td>
+						<td>Available</td>
+					</tr>
+					<tr>
 						<td>Young Leaders 3.0</td>
 						<td>Jason Ma</td>
 						<td>2014</td>
 						<td>In Use</td>
+					</tr>
+					<tr>
+						<td>1,000 Places to See Before You Die</td>
+						<td>Patricia Shultz</td>
+						<td>2003</td>
+						<td>Available</td>
 					</tr>
 				</tbody>
 			</table>
@@ -44,9 +63,9 @@
 	var cells = document.getElementsByTagName("td");
 		for (var i = 0; i < cells.length; i++) {
 			if (cells[i].innerHTML === "Available") {
-				cells[i].innerHTML = "<a href='mailto:yashplorer@gmail.com?subject=Book%20Request'>Available</a>";
+				cells[i].innerHTML = "<a href='mailto:yashplorer@gmail.com?subject=Book%20Request' style='color: #00CC00'>Available</a>";
 			} else if (cells[i].innerHTML === "In Use") {
-				cells[i].style.color = '#CC3300';
+				cells[i].innerHTML = "<a href='mailto:yashplorer@gmail.com?subject=Book%20Reservation' style='color: #CC3300'>In Use</a>";
 			}
 		}
 	</script>
