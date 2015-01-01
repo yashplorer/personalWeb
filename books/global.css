@@ -16,11 +16,20 @@ body {
 }
 h1 {
 	font-family: Didot;
+	font-weight: bold;
+
 	margin: 0;
 }
 p {
 	font-family: Baskerville;
-	font-weight: 400;
+	font-weight: normal;
+}
+td, a{
+	font-family: Baskerville;
+	font-weight: normal;
+	font-size: 10pt;
+}
+p {
 	margin-top: 0;
 }
 table {
@@ -28,9 +37,13 @@ table {
 	text-align: left;
 	width: 100%;
 }
+th {
+	font-family: Didot;
+	font-weight: bold;
+	font-size: 12pt;
+}
 a {
 	color: #00CC00;
-	font-size: 10px;
 }
 a:hover {
 	color: #008F00;
@@ -41,22 +54,7 @@ td, th {
 thead th {
 	background: 0;
 	border-bottom: black solid thin;
-	/*background-color: #000;*/
-	font-size: 12px;
-	font-family: Didot;
 }
-
 tbody td {
-	color:#000;
-	font-family: Baskerville;
-	font-size: 10px;
 	font-weight:400;
-}
-
-tbody td:first-child {
-	border-left: none;
-}
-
-tbody tr:last-child td {
-	border-bottom: none;
 }
