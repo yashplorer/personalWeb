@@ -24,13 +24,16 @@ p {
 	font-family: Baskerville;
 	font-weight: normal;
 }
-td, a, span{
+td, a, span, em{
 	font-family: Baskerville;
 	font-weight: normal;
 	font-size: 10pt;
 }
 p {
 	margin-top: 0;
+}
+hr {
+	border: black solid thin;
 }
 table {
 	border-collapse: collapse;
