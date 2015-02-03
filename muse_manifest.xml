@@ -1,29 +1,24 @@
 <manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="360046262" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="485373149" mt="1422949400806" redirect="true"/>
+  </folder>
   <folder name="css">
-    <file name="site_global.css" crc="4132628999"/>
-    <file name="master_master.css" crc="4181506072" ref="index"/>
-    <file name="index.css" crc="4028475147" ref="index"/>
+    <file name="site_global.css" crc="126027158"/>
+    <file name="index.css" crc="351859124" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="3865766194" ref="index"/>
-    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
-    <file name="pie.js" crc="3827607177" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="3937082470" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index"/>
+    <file name="museutils.js" crc="3865766194" ref="index:phone>index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index:phone>index"/>
+    <file name="jquery.scrolleffects.js" crc="3937082470" ref="index:phone>index"/>
+    <file name="museredirect.js" crc="236897542" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="master-favicon.ico" crc="215449928" ref="index"/>
-    <file name="original.png" crc="3852993606" ref="index"/>
-    <file name="logo.png" crc="179712090" ref="index"/>
-    <file name="profpic-u2286.png" crc="54043868" ref="index"/>
-    <file name="twitter.png" crc="34495940" ref="index"/>
-    <file name="googleplus.png" crc="240899926" ref="index"/>
-    <file name="linkedin.png" crc="9733757" ref="index"/>
-    <file name="github.png" crc="4068568008" ref="index"/>
-    <file name="fb.png" crc="432709536" ref="index"/>
-    <file name="rdhs.png" crc="146284323" ref="index"/>
-    <file name="pclogo.png" crc="81461922" ref="index"/>
-    <file name="sativa.png" crc="3923392388" ref="index"/>
+    <file name="master-favicon.ico" crc="215449928" ref="phone>index"/>
+    <file name="sativa.png" crc="3923392388" ref="index:phone>index"/>
   </folder>
-  <file name="index.html" crc="4277992887" mt="1417807592808" redirect="true"/>
+  <file name="index.html" crc="408235505" mt="1422949295472" redirect="true"/>
 </manifest>

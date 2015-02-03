@@ -89,7 +89,7 @@ a
 
 a:link
 {
-	color: #FFFFFF;
+	color: #000000;
 	font-style: normal;
 	font-weight: normal;
 	text-decoration: underline;
@@ -97,7 +97,7 @@ a:link
 
 a:visited
 {
-	color: #FFFFFF;
+	color: #000000;
 	font-style: normal;
 	font-weight: normal;
 	text-decoration: underline;
@@ -105,7 +105,7 @@ a:visited
 
 a:hover
 {
-	color: #7F7F7F;
+	color: #555555;
 	font-style: normal;
 	font-weight: normal;
 	text-decoration: underline;
@@ -113,7 +113,7 @@ a:hover
 
 a:active
 {
-	color: #7F7F7F;
+	color: #777777;
 	font-style: normal;
 	font-weight: normal;
 	text-decoration: underline;
