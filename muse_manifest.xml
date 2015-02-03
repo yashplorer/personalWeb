@@ -3,7 +3,7 @@
     <folder name="css">
       <file name="index.css" crc="360046262" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="485373149" mt="1422949400806" redirect="true"/>
+    <file name="index.html" crc="531422337" mt="1422998613639" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="126027158"/>
@@ -20,5 +20,5 @@
     <file name="master-favicon.ico" crc="215449928" ref="phone>index"/>
     <file name="sativa.png" crc="3923392388" ref="index:phone>index"/>
   </folder>
-  <file name="index.html" crc="408235505" mt="1422949295472" redirect="true"/>
+  <file name="index.html" crc="363273730" mt="1422998533551" redirect="true"/>
 </manifest>
