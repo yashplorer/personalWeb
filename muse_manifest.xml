@@ -17,8 +17,8 @@
     <file name="museredirect.js" crc="236897542" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="master-favicon.ico" crc="215449928" ref="phone>index"/>
+    <file name="master-favicon.ico" crc="215449928" ref="phone>index:index"/>
     <file name="sativa.png" crc="3923392388" ref="index:phone>index"/>
   </folder>
-  <file name="index.html" crc="363273730" mt="1422998533551" redirect="true"/>
+  <file name="index.html" crc="466492082" mt="1423030990700" redirect="true"/>
 </manifest>

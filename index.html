@@ -63,19 +63,18 @@ $().ready(function(){
 	a {
 		font-weight: 100;
 		color: #111;
-		text-decoration: none;
 		-webkit-transition: all 500ms ease;
 		-moz-transition: all 500ms ease;
 		-ms-transition: all 500ms ease;
 		-o-transition: all 500ms ease;
 		transition: all 500ms ease;
 	}
-	a:hover {
-		color: #555;
-	}
-	a:visited {
-		color: #555;
-	}
+              a:visited {color: #555;}
+              a:link{text-decoration: none;}
+              a:hover {
+                            color: #555;
+                            text-decoration: underline;
+              }
 </style>
 <h1>Yash Plorer</h1><br>
 <p>I take
@@ -93,6 +92,11 @@ $().ready(function(){
 	<br>
 	<a href="mailto:yashplorer@gmail.com">Join me</a>.
 </p>
+<br>
+<br>
+<div style="text-align:center">
+<blockquote class="twitter-tweet tw-align-center" lang="en" ><p>on messages/emails/snapchats etc.: if I don&#39;t reply to you (in a proper situation) for longer than 36 hrs you should spam me and be mad</p>&mdash; Yash (@YashPlorer) <a href="https://twitter.com/YashPlorer/status/562844963797757955">February 4, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 </div>
    <div class="verticalspacer"></div>
   </div>
@@ -111,7 +115,7 @@ $().ready(function(){
    $(document).ready(function() { try {
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
-$('.html').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[-0.8,1.4]},{"in":[0,Infinity],"speed":[0.5,1.3]}]);/* scroll effect */
+$('.html').registerBackgroundPositionScrollEffect([{"speed":[-0.8,1.4],"in":[-Infinity,0]},{"speed":[0.5,1.3],"in":[0,Infinity]}]);/* scroll effect */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
