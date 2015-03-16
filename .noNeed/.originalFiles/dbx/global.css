@@ -1,0 +1,50 @@
+*{
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ss-form-title {
+	font-weight: 700;
+}
+
+.ss-q-title {
+	font-weight:500;
+}
+
+.ss-form-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 10px;
+
+}
+
+.ss-header-image img {
+	width: 100%;
+}
+
+#ss-submit {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  color: #ffffff;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:none;
+}
+
+#ss-submit:hover {
+  background: #0069ab;
+  text-decoration: none;
+}
