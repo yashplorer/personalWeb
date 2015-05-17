@@ -2,6 +2,11 @@
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic');
 @import url('font-awesome.min.css');
 
+@font-face {
+    font-family: San Francisco Display;
+    src: url(sfd.ttf);
+}
+
 /*
 	Astral by HTML5 UP
 	html5up.net | @n33co
@@ -35,8 +40,8 @@
 		
 	body,input,textarea,select
 	{
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+		font-family: 'San Francisco Display','Source Sans Pro', sans-serif;
+		font-weight: 100;
 		color: #777777;
 	}
 	
@@ -467,14 +472,12 @@
 
 	#footer
 	{
-		color: #ccc;
-		color: rgba(255,255,255,0.45);
+		color: #333;
 	}
 
 		#footer a
 		{
-			color: #ddd;
-			color: rgba(255,255,255,0.65);
+			color: #444;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
 			-o-transition: color .25s ease-in-out;
@@ -485,6 +488,7 @@
 		#footer a:hover
 		{
 			color: rgba(255,255,255,1.0);
+			color: #777;
 		}
 		
 		#footer .copyright
