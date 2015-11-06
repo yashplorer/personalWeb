@@ -4,16 +4,18 @@
             <title>Charlie &amp; Yash</title>
             <link>http://yashplorer.com/pod/index.html</link>
             <description>Free web building tutorials</description>
+            <author>Charlie Kruse and Yash Plorer</author>
+            <image>
+              <enclosure url="http://www.yashplorer.com/pod/resources/001.jpg" length="423894" type="image/jpg" />
+            </image>
             <item>
                 <title>Ethics and the Decline of Suburbia</title>
-                <author>yplorer@gmail.com</author>
                 <pubDate>Thu, 5 Nov 2015</pubDate>
                 <link>http://yashplorer.com/pod/resources/001.m4a</link>
                 <description>
                     In which Charlie and Yash discuss a riveting conversation with a mutual acquaintance on ethics and note the influence of housing on adult friendships.
                 </description>
-
-                 <enclosure url="http://www.yashplorer.com/pod/resources/001.jpg" length="423894" type="image/jpg" />
+                 <enclosure url="http://yashplorer.com/pod/resources/001.m4a" length="14580764" type="music/m4a" />
             </item>
       </channel>
 </rss>
