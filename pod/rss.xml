@@ -6,7 +6,9 @@
             <description>Free web building tutorials</description>
             <author>Charlie Kruse and Yash Plorer</author>
             <image>
-              <enclosure url="http://www.yashplorer.com/pod/resources/001.jpg" length="423894" type="image/jpg" />
+              <url>http://www.yashplorer.com/pod/resources/001.jpg"</url>
+              <title>Swiss Suburbia</title>
+              <link>http://photography.yashplorer.com</link>
             </image>
             <item>
                 <title>Ethics and the Decline of Suburbia</title>
