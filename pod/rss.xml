@@ -5,11 +5,11 @@
             <link>http://yashplorer.com/pod/index.html</link>
             <description>In which Charlie and Yash drive from and sometimes to their institution of education and discuss.</description>
             <author>Charlie Kruse and Yash Plorer</author>
-            <image>
+            <!-- <image>
               <url>http://www.yashplorer.com/pod/resources/001.jpg"</url>
               <title>Swiss Suburbia</title>
               <link>http://photography.yashplorer.com</link>
-            </image>
+            </image> -->
             <item>
                 <title>Ethics and the Decline of Suburbia</title>
                 <pubDate>Thu, 5 Nov 2015</pubDate>
