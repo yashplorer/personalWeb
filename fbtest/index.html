@@ -1,0 +1,41 @@
+<head>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+        var aT;
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '1596595030656710',
+            xfbml      : true,
+            version    : 'v2.6'
+          });
+
+          FB.login();
+
+          console.log(FB.getAuthResponse());
+        };
+
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "http://connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        
+
+        $.ajax({
+          url: "http://graph.facebook.com/me",
+          accessToken: aT,
+          success: function function_name(argument) {
+            // body...
+          },
+          error: function function_name(argument) {
+            // body...
+          }
+        });
+    </script>
+  <div> test </div>
+</body>
