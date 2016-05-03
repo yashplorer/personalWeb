@@ -5,15 +5,21 @@
     <script>
         var aT;
         window.fbAsyncInit = function() {
-          FB.init({
-            appId      : '1596595030656710',
-            xfbml      : true,
-            version    : 'v2.6'
-          });
+            FB.init({
+              appId      : '1596595030656710',
+              xfbml      : true,
+              version    : 'v2.6'
+            });
 
-          FB.login();
+            var cb = function(){
+              FB.getAuthResponse();
+            }
 
-          console.log(FB.getAuthResponse());
+            (function(){
+              FB.login();
+              cb();
+            })();
+          
         };
 
         (function(d, s, id){
