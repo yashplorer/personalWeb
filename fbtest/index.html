@@ -3,46 +3,50 @@
 </head>
 <body>
     <script>
-        var aT;
-        window.fbAsyncInit = function() {
-            FB.init({
-              appId      : '1596595030656710',
-              xfbml      : true,
-              version    : 'v2.6'
+        var r;
+        var callAPI = function(a){
+            var request = a;
+            $.ajax({
+              url: "http://bootcamp-api.transferwise.com" + request + "?token=ca7cde5f93cd045c8390856b3e18c0ef2150aeed",
+              success: function(response) {
+                r = response;
+                console.log("it worked");
+                console.log(response);
+              },
+              error: function(response) {
+                r = response;
+                console.log("didn't work");
+                console.log(response);
+              },
+              type: 'GET'
             });
+        }
 
-            var cb = function(){
-              aT = FB.getAuthResponse();
-              console.log(aT);
+        //Challenge One
+        //make API request  with request = "/name/Yash Nevatia";
+
+        //Challenge Two
+        var challengeTwo = function(){
+            var a = [];
+            for (var i = 0; i < 100; i++) {
+                a[i] = i + 1;
             }
 
-            (function(){
-              FB.login();
-              cb();
-            })();
-          
-        };
+            j = 1;
+            i = 0;
 
-        (function(d, s, id){
-           var js, fjs = d.getElementsByTagName(s)[0];
-           if (d.getElementById(id)) {return;}
-           js = d.createElement(s); js.id = id;
-           js.src = "http://connect.facebook.net/en_US/sdk.js";
-           fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+            while(a.length != 1){
+                console.log("removing " + a[i]);
+                a.splice(i,1);
+                i = ((i + j) % a.length);
+                j++;
+            }
 
-        
+            console.log(a);            
+        }
 
-        $.ajax({
-          url: "http://graph.facebook.com/me",
-          accessToken: aT,
-          success: function function_name(argument) {
-            // body...
-          },
-          error: function function_name(argument) {
-            // body...
-          }
-        });
+        callAPI("");
+        //challengeTwo();
     </script>
   <div> test </div>
 </body>
