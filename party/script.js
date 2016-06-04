@@ -1,7 +1,7 @@
 window.onLoad = onLoad();
 function onLoad() {
-	var passwordAttempt = prompt("Please enter your password").trim();
-	if (passwordAttempt === "kayak") {
+	//var passwordAttempt = prompt("Please enter your password").trim();
+	if (true) {
 		$("*").css("color", "black");
 		$(".dec").css("color", "red");
 		$(".conf").css("color", "green");
