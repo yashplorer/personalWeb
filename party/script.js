@@ -1,18 +1,11 @@
 window.onLoad = onLoad();
 function onLoad() {
 	//var passwordAttempt = prompt("Please enter your password").trim();
-	if (true) {
-		$("*").css("color", "black");
-		$(".dec").css("color", "red");
-		$(".conf").css("color", "green");
-		$('img').attr('src', 'weather.png');
+	$("*").css("color", "black");
+	$(".dec").css("color", "red");
+	$(".conf").css("color", "green");
+	$('img').attr('src', 'weather.png');
 		console.log('hi');
-	} else {
-		alert("Incorrect password!");
-	};
-	if ($(window).width() < 2000){
-		$('img').css('width','100%');
-	};
 };
 // Parse.initialize("vsF5q80FTmsbItYXMfplXP4MM1qXga7DuHZiD9gF", "QLEH2AXrTVxQ0xLXCTcfYwh5PSWsqHgPm00Ez0b6");
 
